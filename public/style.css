@@ -1,0 +1,280 @@
+
+
+  #app {
+    width: 100%;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+    background-image: url('./images/landscape.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .content {
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    border-top: 20px solid #2e2215;
+    border-bottom: 20px solid #2e2215;
+    min-height: 70vh;
+    padding: 0px 20px 50px;
+    margin: 0% 5%;
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 10vw;
+  }
+
+  #home-pine {
+    height: 25vw;
+  }
+
+  #home-maple {
+    height: 25vw;
+  }
+
+  #home-ice {
+    height: 25vw;
+  }
+  
+  #about-landscape {
+    width: 34%;
+    margin-right: 33%;
+    margin-left: 33%;
+  }
+
+  #history-deer {
+    width: 15vw;
+  }
+
+  #issues-plan {
+    width: 25vw;
+  }
+
+  #contact-tanager {
+    width: 15vw;
+  }
+
+  .nav-bar {
+    padding: 8px 12px;
+    border: 3px solid rgb(42, 67, 38);
+    margin: 10px 3% 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #ede6e6;
+    background-color: rgb(65, 103, 57);
+  }
+
+  #nav-menu {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: right;
+    text-align: left;
+    font-family: arial;
+    text-decoration: none
+  }
+
+  a {
+    text-decoration: none
+  }
+  
+  .nav-item {
+    color: white;
+    padding: 20px;
+  }
+  
+  .nav-item:hover {
+    background-color: rgb(150, 189, 216);
+    color: black;
+  }
+
+  .page-heading {
+    margin: 20px 0px;
+    text-align: center;
+  }
+
+  .centered-row-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #home-images img {
+    border: 2px solid black;
+  }
+
+  #home-quote {
+    font-style: italic;
+    padding: 2px 10vw;
+  }
+
+  #home-author {
+    padding: 2px 10vw;
+  }
+  
+  #about-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #history-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #timeline {
+    width: 80%;
+    margin-right: 40px;
+  }
+
+  .history h3 {
+    margin: 3px 0px;
+  }
+
+  .history p {
+    margin: 3px 0px 30px;
+  }
+
+  #issues-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #letters {
+    width: 80%;
+    margin-right: 40px;
+  }
+
+  .letter h2, .letter h3 {
+    margin: 3px 0px;
+  }
+  
+  .letter p {
+    margin: 10px 3px 30px;
+    white-space: pre-line;
+  }
+
+  #contact-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .contact-info {
+    white-space: pre-line;
+    margin: 0px 200px 20px;
+    text-align: center;
+  }
+
+  #contact-contribution {
+    width: 60%;
+    text-align: center;
+    font-size: 14pt;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #download-button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #download-button {
+    padding: 0.36em 0.84em;
+    border: 1px solid #000000;
+    border-radius: 0.5em;
+    margin: 0.1em auto 0.2em auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    transition: all 0.15s;
+  }
+
+  #download-button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+    color: black;
+    background-color: #accd7c;
+    border-color: black;
+  }
+
+  .footer {
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin: 30px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ede6e6;
+    border: 3px solid rgb(42, 67, 38);
+    background-color: rgb(65, 103, 57);
+  }
+  
+  #footer-menu {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    font-family: arial;
+  }
+  
+  .footer-item {
+    color: white;
+    padding: 0px 20px;
+  }
+  
+  .footer-item:hover {
+    color: rgb(234, 190, 102);
+  }
+
+  .footer-logo {
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 7.5vw;
+    width: 7.5vw;
+    vertical-align: middle;
+    background-size: 7.5vw;
+    background-position: center;
+    background-image: url('./favicon.ico');
+  }
+
+  .footer-logo-2 {
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 7.5vw;
+    width: 7.5vw;
+    vertical-align: middle;
+    background-size: 7.5vw;
+    background-position: center;
+    background-image: url('./seal.jpeg');
+  }
+
+  .disclaimer {
+    font-style: italic;
+  }
