@@ -19,7 +19,13 @@
     border-bottom: 20px solid #2e2215;
     min-height: 70vh;
     padding: 0px 20px 50px;
-    margin: 0% 5%;
+    margin: 0% 4%;
+  }
+
+  .divider {
+    width: 90%;
+    border-top: 1.5px solid #9ba9cc;
+    margin: 20px auto;
   }
 
   #logo {
@@ -29,7 +35,7 @@
   }
   
   #logo img {
-    width: 10vw;
+    width: 9vw;
   }
 
   #home-pine {
@@ -63,9 +69,9 @@
   }
 
   .nav-bar {
-    padding: 8px 12px;
+    padding: 0.8% 1.2%;
     border: 3px solid rgb(42, 67, 38);
-    margin: 10px 3% 20px;
+    margin: 1.5% 4%;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -90,7 +96,8 @@
   
   .nav-item {
     color: white;
-    padding: 20px;
+    padding: 2px 20px;
+    margin: 5px 0px;
   }
   
   .nav-item:hover {
@@ -174,6 +181,10 @@
     white-space: pre-line;
   }
 
+  .letter a {
+    color: #000000;
+  }
+
   #contact-container {
     display: flex;
     flex-direction: row;
@@ -227,7 +238,7 @@
   .footer {
     padding: 10px 30px;
     border-radius: 6px;
-    margin: 30px 20px 10px;
+    margin: 30px 4% 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -278,3 +289,231 @@
   .disclaimer {
     font-style: italic;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLETS AND SMALL LAPTOPS */
+@media only screen and (max-width: 800px) {
+  body {
+    background: none;
+    max-width: 100%;
+  }
+
+  .content {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    border: none;
+  }
+
+  .divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .app {
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  #logo {
+    justify-content: space-around;
+  }
+
+  #logo img {
+    width: 50px;
+    height: auto;
+  }
+
+  .nav-bar {
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 5px 0px 5px 15px;
+    justify-content: space-between;
+    min-height: 60px;
+    flex-wrap: nowrap;
+  }
+
+  #nav-menu {
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: contents;
+  }
+
+  .blog {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .blog-divider {
+    margin: 10px auto;
+  }
+
+  #nav-menu {
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 6px 0px 0px;
+  }
+
+  .nav-item {
+    font-size: 14pt;
+    font-weight: normal;
+    padding: 10px;
+  }
+
+  .footer {
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  .footer-item {
+    font-size: 10pt;
+    text-align: center;
+    padding: 0px 5px;
+  }
+
+  .footer-menu {
+    justify-content: space-evenly;
+  }
+
+  .footer {
+    min-height: 100px
+  }
+
+  .disclaimer {
+    display: none;
+  }
+
+  .footer-logo {
+    width: 50px;
+    height: auto;
+  }
+}
+
+/* MEDIUM AND LARGE CELL PHONES */
+@media only screen and (max-width: 600px) {
+  #nav-menu {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    z-index: 1;
+    padding: 0px;
+    text-align: center;
+  }
+
+  #hamburger-menu.closed {
+    overflow: hidden;
+  }
+
+  #hamburger-menu.open {
+    overflow: visible;
+  }
+
+  #hamburger-button.open-b {
+    font-size: 36pt;
+    vertical-align: middle;
+    text-align: top;
+    padding-bottom: 2px;
+  }
+
+  #hamburger-button.closed-b {
+    font-size: 36pt;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .hamburger-item {
+    color: #ede6e6;
+    background-color: #000000;
+    overflow: visible;
+    border: 5px solid black;
+    padding: 15px 4px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13pt;
+  }
+
+  #hamburger-menu.open div.open-b {
+    display: contents;
+  }
+
+  #hamburger-menu.open div.closed-b {
+    display: none;
+  }
+
+  #hamburger-menu.closed div.open {
+    display: none;
+  }
+
+  #hamburger-menu.closed div.closed {
+    display: contents;
+  }
+
+  .footer {
+    min-height: 50px
+  }
+
+  .footer-logo {
+    display: none;
+  }
+}
+
+
+/* SMALL CELL PHONES */
+@media only screen and (max-width: 375px) {
+  #logo img {
+    width: 45px;
+  }
+
+  #hamburger-button {
+    font-size: 22pt;
+  }
+
+  .hamburger-item {
+    font-size: 14pt;
+    border: 2px solid black;
+  }
+  
+  .nav-bar {
+    padding: 5px 0px 5px 5px;
+  }
+
+  .subheading {
+    font-size: 18pt;
+  }
+
+  .subcategory-title-flexbox img {
+    max-width: 45px;
+    height: auto;
+  }
+}

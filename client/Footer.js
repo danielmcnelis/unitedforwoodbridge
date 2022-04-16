@@ -14,7 +14,7 @@ const Footer = () => {
             <p className="footer-item">Town History</p>
           </Link>
           <Link to="/issues/">
-            <p className="footer-item">Our Issues</p>
+            <p className="footer-item">The Issues</p>
           </Link>
           <Link to="/contact/">
             <p className="footer-item">Contact & Contribute</p>

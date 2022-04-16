@@ -11,23 +11,26 @@ const Issues = () => {
 
   return (
     <div className='content'>
-        <h1 className='page-heading'>Details on the Issues</h1>
+        <h1 className='page-heading'>The Issues</h1>
         <div id='issues-container'>
             <div id='letters'>
                 {
-                    letters.map((l) => {
+                    letters.map((letter) => {
                         return (
-                            <div href={l.url} className='letter' key={l.title}>
-                                <h2>{l.title}</h2>
-                                <h3>{l.author} - {l.date}</h3>
-                                <p>{l.content}</p>
+                            <div className='letter' key={letter.title}>
+                                <a href={letter.url} target='_blank' rel='noreferrer'>
+                                    <h2>{letter.title}</h2>
+                                </a>
+                                <h3>{letter.author} - {letter.date}</h3>
+                                <p>{letter.content}</p>
+                                <div className='divider'/>
                             </div>
                         )
                     })
                 }
             </div>
             <div className='corner-photo'>
-                <img id='issues-plan' src='./images/plan-2.png' alt='plan'/>
+                <img id='issues-plan' src='/images/plan-2.png' alt='arbor haven plan for housing development'/>
             </div>
         </div>
     </div>

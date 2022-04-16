@@ -18,16 +18,16 @@ const Contact = () => {
             <p className='contact-info'>{'Adrienne Micci-Smith\n*coming soon*'}</p>
         </div>
         <div>          
-          <img id='contact-tanager' src='./images/tanager-2.png' alt='maple'/>
+          <img id='contact-tanager' src='/images/tanager-2.png' alt='scarlet tanager in a tree'/>
         </div>
       </div>
       <p id='contact-contribution'>
-        If you would like to make a donation to our committee, or get involved, please download and fill out this form.
+        If you would like to make a donation to our committee, or to get involved, please download and fill out this form.
       </p>
       <div id='download-button-container'>
         <a
           id='download-button'
-          href='./Contribution and Contact Form.pdf'
+          href='/Contribution and Contact Form.pdf'
           download='Contribution and Contact Form.pdf'
         >
           Download Form
