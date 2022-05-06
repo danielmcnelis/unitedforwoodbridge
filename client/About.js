@@ -1,6 +1,5 @@
 
-import React from 'react'
-import { useLayoutEffect } from 'react'
+import React, { useLayoutEffect } from 'react'
 
 //ABOUT
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
   return (
     <div className='content'>
       <h1 className='page-heading'>We are United for Woodbridge</h1>
-      <img id='about-landscape' src='/images/landscape-3.png' alt='pine and field landscape overlooking sunset'/>
+      <img id='about-landscape' src='/images/landscape-3.jpg' alt='pine and field landscape overlooking sunset'/>
       <div id='about-container'>
         <h2 className='page-subheading'>Who are we?</h2>
         <p id='about-summary-1'>

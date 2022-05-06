@@ -1,41 +1,41 @@
+/* eslint-disable max-statements */
 
-import React from 'react'
-import letters from './static/letters.json'
-import { useLayoutEffect } from 'react'
+import React, { useLayoutEffect } from 'react'
+import {Link} from 'react-router-dom'
 
-//ISSUES
 const Issues = () => {
-  
+
   // USE LAYOUT EFFECT
   useLayoutEffect(() => window.scrollTo(0, 0), [])
 
   return (
     <div className='content'>
-        <h1 className='page-heading'>The Issues</h1>
-        <div id='issues-container'>
-            <div id='letters'>
-                {
-                    letters.map((letter) => {
-                        return (
-                            <div className='letter' key={letter.title}>
-                                <a href={letter.url} target='_blank' rel='noreferrer'>
-                                    <h2>{letter.title}</h2>
-                                </a>
-                                <h3>{letter.author} - {letter.date}</h3>
-                                <p>{letter.content}</p>
-                                <div className='divider'/>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-            <div className='corner-photo'>
-                <img id='issues-plan' src='/images/plan-2.png' alt='arbor haven plan for housing development'/>
-            </div>
-        </div>
+      <h1 className='page-heading'>The Issues</h1>
+      <div className="issues-menu">
+          <div>
+            <Link to={`/letters/`} className="issues-link">
+                <div className="issues-button">
+                    <div>Letters to the Editor</div>
+                </div>
+            </Link>
+          </div>
+          <div>
+            <Link to={`/reasons/`} className="issues-link">
+                <div className="issues-button">
+                    <div>10 Reasons Not to Sell</div>
+                </div>
+            </Link>
+          </div>
+      </div>
+      
+      <div id='home-images' className='centered-row-flexbox'>
+          <img id='home-ice' src='/images/snail.jpg' alt='frozen pond daytime landscape'/>
+          <img id='home-pine' src='/images/frog.jpg' alt='large pine on walking path'/>
+          <img id='home-maple' src='/images/heron.jpg' alt='large maple on walking path'/>
+      </div>
+      
     </div>
   )
 }
 
 export default Issues
-

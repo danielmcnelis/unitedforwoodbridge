@@ -1,6 +1,5 @@
 
-import React from 'react'
-import { useLayoutEffect } from 'react'
+import React, { useLayoutEffect } from 'react'
 
 //CONTACT
 const Contact = () => {
@@ -18,7 +17,7 @@ const Contact = () => {
             <p className='contact-info'>{'Adrienne Micci-Smith\n*coming soon*'}</p>
         </div>
         <div>          
-          <img id='contact-tanager' src='/images/tanager-2.png' alt='scarlet tanager in a tree'/>
+          <img id='contact-tanager' src='/images/tanager-2.jpg' alt='scarlet tanager in a tree'/>
         </div>
       </div>
       <p id='contact-contribution'>

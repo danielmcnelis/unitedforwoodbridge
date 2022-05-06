@@ -1,7 +1,6 @@
 
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import history from './static/history.json'
-import { useLayoutEffect } from 'react'
 
 //HISTORY
 const History = () => {
@@ -26,7 +25,7 @@ const History = () => {
                 }
             </div>
             <div className='corner-photo'>
-                <img id='history-deer' src='/images/deer-3.png' alt='deer on a hillside at sunset'/>
+                <img id='history-deer' src='/images/deer-3.jpg' alt='deer on a hillside at sunset'/>
             </div>
         </div>
     </div>

@@ -5,6 +5,8 @@ import About from './About'
 import Contact from './Contact'
 import History from './History'
 import Issues from './Issues'
+import Letters from './Letters'
+import Reasons from './Reasons'
 import Footer from './Footer'
 import NavBar from './NavBar'
 import {Route, Switch} from 'react-router-dom'
@@ -20,6 +22,8 @@ const App = () => {
         <Route path="/contact/" component={Contact} />
         <Route path="/history/" component={History} />
         <Route path="/issues/" component={Issues} />
+        <Route path="/letters/" component={Letters} />
+        <Route path="/reasons/" component={Reasons} />
       </Switch>
       <Footer />
     </div>
