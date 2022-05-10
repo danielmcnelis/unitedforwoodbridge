@@ -10,7 +10,7 @@ const Reasons = () => {
 
   return (
     <div className='content'>
-        <h1 className='page-heading'>Top 10 Reasons Not to Sell Public Land</h1>
+        <h1 className='page-heading'>Top 10 Reasons to Keep Our Public Land</h1>
         <div id='reasons-container'>
             <div id='reasons'>
                 {

@@ -10,7 +10,7 @@ const Letters = () => {
 
   return (
     <div className='content'>
-        <h1 className='page-heading'>Letters to the Editor</h1>
+        <h1 className='page-heading'>Woodbridge Town News: Letters to the Editor</h1>
         <div id='letters-container'>
             <div id='letters'>
                 {

@@ -3,6 +3,7 @@ import React from 'react'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import FAQs from './FAQs'
 import History from './History'
 import Issues from './Issues'
 import Letters from './Letters'
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/contact/" component={Contact} />
         <Route path="/history/" component={History} />
         <Route path="/issues/" component={Issues} />
+        <Route path="/faqs/" component={FAQs} />
         <Route path="/letters/" component={Letters} />
         <Route path="/reasons/" component={Reasons} />
       </Switch>

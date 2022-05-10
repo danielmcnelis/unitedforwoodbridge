@@ -20,9 +20,16 @@ const Issues = () => {
             </Link>
           </div>
           <div>
+            <Link to={`/faqs/`} className="issues-link">
+                <div className="issues-button">
+                    <div>Affordable Housing</div>
+                </div>
+            </Link>
+          </div>
+          <div>
             <Link to={`/reasons/`} className="issues-link">
                 <div className="issues-button">
-                    <div>10 Reasons Not to Sell</div>
+                    <div>Keep Public Land</div>
                 </div>
             </Link>
           </div>

@@ -12,9 +12,8 @@ const Contact = () => {
       <h1 className='page-heading'>Contact Us</h1>
       <div id='contact-container'>
         <div>
-            <p className='contact-info'>{'Cathy Wick\n*coming soon*'}</p>
-            <p className='contact-info'>{'Paul Harrigan\n*coming soon*'}</p>
-            <p className='contact-info'>{'Adrienne Micci-Smith\n*coming soon*'}</p>
+            <p className='contact-info'>E-mail: <a href="mailto:UnitedforWoodbridge@gmail.com">UnitedforWoodbridge@gmail.com</a></p>
+            <p className='contact-info'>Facebook: <a href="https://www.facebook.com/profile.php?id=100079291215711">United for Woodbridge</a></p>
         </div>
         <div>          
           <img id='contact-tanager' src='/images/tanager-2.jpg' alt='scarlet tanager in a tree'/>

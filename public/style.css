@@ -60,7 +60,7 @@
     width: 15vw;
   }
 
-  #letters-plan, #reasons-field {
+  #letters-plan, #reasons-field, #faqs-mcmansion {
     width: 25vw;
   }
 
@@ -159,7 +159,7 @@
     margin: 3px 0px 30px;
   }
 
-  #letters-container, #reasons-container {
+  #letters-container, #reasons-container, #faqs-container {
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -167,7 +167,7 @@
     margin-right: auto;
   }
 
-  #letters, #reasons {
+  #letters, #reasons, #faqs {
     width: 80%;
     margin-right: 40px;
   }
@@ -213,11 +213,11 @@
     background-color: #f7f7f7;
   }
 
-  .letter h2, .letter h3, .reason h2 {
+  .letter h2, .letter h3, .reason h2, .faq h2 {
     margin: 3px 0px;
   }
   
-  .letter p, .reason p {
+  .letter p, .reason p, .faq p {
     margin: 10px 3px 30px;
     white-space: pre-line;
   }
@@ -238,7 +238,8 @@
   .contact-info {
     white-space: pre-line;
     margin: 0px 200px 20px;
-    text-align: center;
+    text-align: left;
+    font-size: 15pt;
   }
 
   #contact-contribution {
