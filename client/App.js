@@ -23,9 +23,9 @@ const App = () => {
         <Route path="/contact/" component={Contact} />
         <Route path="/history/" component={History} />
         <Route path="/issues/" component={Issues} />
-        <Route path="/faqs/" component={FAQs} />
+        <Route path="/housing/" component={FAQs} />
         <Route path="/letters/" component={Letters} />
-        <Route path="/reasons/" component={Reasons} />
+        <Route path="/public-land/" component={Reasons} />
       </Switch>
       <Footer />
     </div>

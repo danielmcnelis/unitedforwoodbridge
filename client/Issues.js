@@ -20,14 +20,14 @@ const Issues = () => {
             </Link>
           </div>
           <div>
-            <Link to={`/faqs/`} className="issues-link">
+            <Link to={`/housing/`} className="issues-link">
                 <div className="issues-button">
                     <div>Affordable Housing</div>
                 </div>
             </Link>
           </div>
           <div>
-            <Link to={`/reasons/`} className="issues-link">
+            <Link to={`/public-land/`} className="issues-link">
                 <div className="issues-button">
                     <div>Keep Public Land</div>
                 </div>
