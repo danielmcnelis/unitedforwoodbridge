@@ -32,21 +32,21 @@ const FAQs = () => {
         <div id='faqs-container'>
             <div>
                 <h2>Further Reading:</h2>
-                <p><a href="https://ctmirror.org/2022/02/14/connecticut-needs-more-affordable-housing-8-30g-is-a-law-that-works/">Connecticut Mirror: CT Needs More Affordable Housing (Web Article)</a></p>
+                <p><a href="https://ctmirror.org/2022/02/14/connecticut-needs-more-affordable-housing-8-30g-is-a-law-that-works/">CT Mirror: CT Needs More Affordable Housing (Web Article)</a></p>
                 <p>
                     <a
-                        href='/Legislative Issue Brief.pdf'
-                        download='Legislative Issue Brief.pdf'
+                        href='/Legislative Issue Brief - Affordable Housing.pdf'
+                        download='Legislative Issue Brief - Affordable Housing.pdf'
                     >
-                        Connecticut Legislative Issue Brief (Download PDF)
+                        Legislative Issue Brief - Affordable Housing (Download PDF)
                     </a>
                 </p>
                 <p>
                     <a
-                        href='/2021 CT Legislative Summary.pdf'
-                        download='2021 CT Legislative Summary.pdf'
+                        href='/2021 Legislative Summary - Land Use and Development.pdf'
+                        download='2021 Legislative Summary - Land Use and Development.pdf'
                     >
-                        2021 Connecticut Legislative Summary (Download PDF)
+                        2021 Legislative Summary - Land Use and Development (Download PDF)
                     </a>
                 </p>
             </div>
