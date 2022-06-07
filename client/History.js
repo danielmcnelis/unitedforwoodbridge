@@ -25,7 +25,7 @@ const History = () => {
                 }
             </div>
             <div className='corner-photo'>
-                <img id='history-deer' src='/images/deer-3.jpg' alt='deer on a hillside at sunset'/>
+                <img className='medium-vertical' src='/images/pond.jpg' alt='pond in autumn'/>
             </div>
         </div>
     </div>

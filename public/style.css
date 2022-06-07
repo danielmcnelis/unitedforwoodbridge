@@ -38,34 +38,29 @@
     width: 9vw;
   }
 
-  #home-pine {
+  .medium-vertical {
     height: 25vw;
   }
 
-  #home-maple {
-    height: 25vw;
-  }
-
-  #home-ice {
-    height: 25vw;
+  #about-landscape-container {
+    display: flex;
+    justify-content: center;
   }
   
   #about-landscape {
-    width: 34%;
-    margin-right: 33%;
-    margin-left: 33%;
+    display: block;
+    width: 700px;
+    height: 260px;
+    object-position: 0px -80px;
+    object-fit: cover;
   }
 
-  #history-deer {
+  .small-vertical {
     width: 15vw;
   }
 
-  #letters-plan, #reasons-field, #faqs-mcmansion {
+  #letters-plan, #reasons-pine, #faqs-mcmansion {
     width: 25vw;
-  }
-
-  #contact-tanager {
-    width: 15vw;
   }
 
   .nav-bar {
@@ -232,13 +227,14 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
   }
 
   .contact-info {
     white-space: pre-line;
-    margin: 0px 200px 20px;
-    text-align: left;
+    margin: 0px 0px 10px;
+    text-align: center;
     font-size: 15pt;
   }
 

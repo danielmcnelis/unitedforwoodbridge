@@ -26,7 +26,7 @@ const Reasons = () => {
                 }
             </div>
             <div className='corner-photo'>
-                <img id='reasons-field' src='/images/milkweed.jpg' alt='milkweed field'/>
+                <img className='medium-vertical' src='/images/pine.jpg' alt='large pine on walking path'/>
             </div>
         </div>
     </div>

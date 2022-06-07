@@ -36,9 +36,9 @@ const Issues = () => {
       </div>
       
       <div id='home-images' className='centered-row-flexbox'>
-          <img id='home-ice' src='/images/snail.jpg' alt='frozen pond daytime landscape'/>
-          <img id='home-pine' src='/images/frog.jpg' alt='large pine on walking path'/>
-          <img id='home-maple' src='/images/heron.jpg' alt='large maple on walking path'/>
+          <img className='medium-vertical' src='/images/snail.jpg' alt='snail on damp pavement path'/>
+          <img className='medium-vertical' src='/images/frog.jpg' alt='frog poking head out of shallow water'/>
+          <img className='medium-vertical' src='/images/heron.jpg' alt='heron flying against clear sky'/>
       </div>
       
     </div>

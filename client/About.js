@@ -10,7 +10,9 @@ const About = () => {
   return (
     <div className='content'>
       <h1 className='page-heading'>We are United for Woodbridge</h1>
-      <img id='about-landscape' src='/images/landscape-3.jpg' alt='pine and field landscape overlooking sunset'/>
+      <div id='about-landscape-container'>
+        <img id='about-landscape' src='/images/sunset.jpg' alt='pine and field landscape overlooking sunset'/>
+      </div>
       <div id='about-container'>
         <h2 className='page-subheading'>Who are we?</h2>
         <p id='about-summary-1'>
