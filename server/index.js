@@ -52,8 +52,8 @@ const createApp = () => {
 	})
 
 	// load key/cert
-	const privateKey = fs.existsSync('key.pem') ? fs.readFileSync('key.pem', 'utf8') : ''
-	const certificate = fs.existsSync('cert.pem') ? fs.readFileSync('cert.pem', 'utf8') : ''
+	const privateKey = fs.existsSync('privkey.pem') ? fs.readFileSync('privkey.pem', 'utf8') : ''
+	const certificate = fs.existsSync('fullchain.pem') ? fs.readFileSync('fullchain.pem', 'utf8') : ''
 	const credentials = { key: privateKey, cert: certificate }
 
 	console.log('credentials', credentials)
