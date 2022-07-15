@@ -56,12 +56,13 @@ const createApp = () => {
 	const certificate = fs.existsSync('cert.pem') ? fs.readFileSync('cert.pem', 'utf8') : ''
 	const credentials = { key: privateKey, cert: certificate }
 
+	console.log('credentials', credentials)
+
 	// Wrap(proxy) express with http server
 	httpServer = http.createServer(app)
 
 	// Wrap(proxy) http server with https server
 	httpsServer = https.createServer(credentials, app)
-
 }
 
 
