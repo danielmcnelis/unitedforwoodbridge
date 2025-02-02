@@ -56,8 +56,6 @@ const createApp = () => {
 	const certificate = fs.existsSync('fullchain.pem') ? fs.readFileSync('fullchain.pem', 'utf8') : ''
 	const credentials = { key: privateKey, cert: certificate }
 
-	console.log('credentials', credentials)
-
 	// Wrap(proxy) express with http server
 	httpServer = http.createServer(app)
 
