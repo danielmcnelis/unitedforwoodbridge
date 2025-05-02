@@ -21,7 +21,7 @@ const Footer = () => {
             <p className="footer-item">Contact & Contribute</p>
           </Link>
         </div>
-        <p className="disclaimer">United For Woodbridge is a Political Action Committee registered in the State of Connecticut.</p>
+        <p className="disclaimer">Paid for by United for Woodbridge, Paul Harrigan, Treasurer.</p>
     </div>
     <Link to="/">
       <div className="footer-logo"/>
