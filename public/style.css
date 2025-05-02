@@ -286,6 +286,12 @@
     background-color: rgb(65, 103, 57);
   }
   
+  #footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   #footer-menu {
     display: flex;
     padding: 0px;

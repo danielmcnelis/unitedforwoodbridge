@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
   <div className="footer">
-    <div>
+    <div id="footer-text">
         <div id="footer-menu">
           <Link to="/about/">
             <p className="footer-item">About Us</p>
@@ -21,7 +21,7 @@ const Footer = () => {
             <p className="footer-item">Contact & Contribute</p>
           </Link>
         </div>
-        <p className="disclaimer">Paid for by United for Woodbridge, Paul Harrigan, Treasurer.</p>
+        <p className="disclaimer">Paid for by United for Woodbridge, Paul Harrigan, Treasurer</p>
     </div>
     <Link to="/">
       <div className="footer-logo"/>
