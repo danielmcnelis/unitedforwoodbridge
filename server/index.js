@@ -71,11 +71,11 @@ const startListening = () => {
 	// 	console.log(`Mixing it up on port ${PORT}`)
 	// )
 	if (onAWS) {
-		const server1 = httpsServer.listen(PORT2, () =>
-			console.log(`Mixing it up on port ${PORT2}`)
+		const server1 = httpsServer.listen(PORT, () =>
+			console.log(`Mixing it up on port ${PORT}`)
 		)
-		const server2 = httpServer.listen(PORT, () =>
-			console.log(`Testing things out on port ${PORT}`)
+		const server2 = httpServer.listen(PORT2, () =>
+			console.log(`Testing things out on port ${PORT2}`)
 		)
 	} else {
 		const server = httpServer.listen(PORT, () =>
