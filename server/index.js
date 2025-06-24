@@ -63,7 +63,6 @@ const createApp = () => {
 	httpsServer = https.createServer(credentials, app)
 }
 
-
 const startListening = () => {
 	console.log('start Listening...')
 	// start listening (and create a 'server' object representing our server)
@@ -71,8 +70,11 @@ const startListening = () => {
 	// 	console.log(`Mixing it up on port ${PORT}`)
 	// )
 	if (onAWS) {
-		const server = httpsServer.listen(PORT, () =>
+		const server1 = httpsServer.listen(PORT, () =>
 			console.log(`Mixing it up on port ${PORT}`)
+		)
+		const server2 = httpServer.listen(PORT, () =>
+			console.log(`Testing things out on port ${PORT}`)
 		)
 	} else {
 		const server = httpServer.listen(PORT, () =>
