@@ -8,7 +8,7 @@ const morgan = require('morgan')
 const compression = require('compression')
 const onAWS = fs.existsSync('privkey.pem')
 const PORT = onAWS ? 443 : 8080
-const PORT2 = 444
+const PORT2 = 8080
 const app = express()
 module.exports = app
 let httpServer
