@@ -8,6 +8,7 @@ const morgan = require('morgan')
 const compression = require('compression')
 const onAWS = fs.existsSync('privkey.pem')
 const PORT = onAWS ? 443 : 8080
+const PORT2 = 444
 const app = express()
 module.exports = app
 let httpServer
@@ -70,8 +71,8 @@ const startListening = () => {
 	// 	console.log(`Mixing it up on port ${PORT}`)
 	// )
 	if (onAWS) {
-		const server1 = httpsServer.listen(PORT, () =>
-			console.log(`Mixing it up on port ${PORT}`)
+		const server1 = httpsServer.listen(PORT2, () =>
+			console.log(`Mixing it up on port ${PORT2}`)
 		)
 		const server2 = httpServer.listen(PORT, () =>
 			console.log(`Testing things out on port ${PORT}`)
